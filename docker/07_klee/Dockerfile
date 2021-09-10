@@ -31,6 +31,7 @@ ENV LLVM_VERSION=12
 ENV STP_VERSION=master
 ENV MINISAT_VERSION=master
 ENV Z3_VERSION=4.8.4
+ENV TCMALLOC_VERSION=2.7
 COPY . /tmp/klee_src/
 RUN /tmp/klee_src//scripts/build/build.sh --debug --install-system-deps klee
 LABEL maintainer="KLEE Developers"
