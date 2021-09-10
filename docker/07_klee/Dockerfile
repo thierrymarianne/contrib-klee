@@ -1,4 +1,4 @@
-FROM safepkt/llvm:latest as llvm_base
+FROM safepkt/llvm12:latest as llvm_base
 FROM safepkt/gtest:latest as gtest_base
 FROM safepkt/uclibc:latest as uclibc_base
 FROM safepkt/libcxx:latest as libcxx_base
