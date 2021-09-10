@@ -24,7 +24,7 @@ install_build_dependencies_klee() {
     build-essential
     gcc-multilib # to generate 32bit
     cmake
-    python-pip #for lit
+    python3-pip #for lit
     python-setuptools #for lit
     python-wheel #for lit
     zlib1g-dev
