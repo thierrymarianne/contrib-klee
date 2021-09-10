@@ -26,7 +26,7 @@ install_build_dependencies_klee() {
     cmake
     python3-pip #for lit
     python-setuptools #for lit
-    python-wheel #for lit
+    python3-pip #for lit
     zlib1g-dev
     python3
     python3-setuptools
